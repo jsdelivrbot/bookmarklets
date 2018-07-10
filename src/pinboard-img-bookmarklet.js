@@ -1,5 +1,8 @@
+/**
+ * @link https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+ */
 $('<link/>').attr({
-  href: 'pinboard-img-bookmarklet.js',
+  href: 'https://cdn.rawgit.com/appasset/bookmarklets/43958ee1/src/pinboard-img-bookmarklet.css',
   type: 'text/css',
   rel:  'stylesheet'
 }).appendTo(head);
@@ -11,7 +14,7 @@ $(".bookmark").each(function() {
     $poster = $poster.add(
       $("#bookmarks").find(".description")
                      .find("a[href$=" + ext + "]")
-    );
+                  );
   });
   
   $poster.each(function() {

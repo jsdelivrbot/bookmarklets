@@ -1,0 +1,76 @@
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/jtv.zip" tvg-shift=4 m3uautoload=1
+
+#EXTINF:0 tvg-name="Первый_канал" group-title="Общественные" ,Первый канал
+http://192.168.1.220:8080/udp/233.99.61.1:5000
+#EXTINF:0 tvg-name="Россия_1" group-title="Общественные" ,Pоссия 1
+http://192.168.1.220:8080/udp/233.99.61.2:5000
+#EXTINF:0 tvg-name="НТВ" group-title="Общественные" ,HTB
+http://192.168.1.220:8080/udp/233.99.61.3:5000
+#EXTINF:0 tvg-name="ННТВ" group-title="Общественные" ,HHTB | Россия 24 НН
+http://192.168.1.220:8080/udp/233.99.61.4:5000
+#EXTINF:0 tvg-name="Волга" group-title="Региональные" ,ВОЛГА
+http://192.168.1.220:8080/udp/233.99.61.5:5000
+#EXTINF:0 tvg-name="Перец" group-title="Общественные" ,Перец
+http://192.168.1.220:8080/udp/233.99.61.7:5000
+#EXTINF:0 tvg-name="Домашний" group-title="Общественные" ,Домашний
+http://192.168.1.220:8080/udp/233.99.61.8:5000
+#EXTINF:0 tvg-name="ТВЦ" group-title="Общественные" ,ТВЦ
+http://192.168.1.220:8080/udp/233.99.61.9:5000
+#EXTINF:0 tvg-name="Россия_Культура" group-title="Культура" ,Россия К
+http://192.168.1.220:8080/udp/233.99.61.10:5000
+#EXTINF:0 tvg-name="Муз_ТВ" group-title="Музыкальные" ,Муз ТВ
+http://192.168.1.220:8080/udp/233.99.61.11:5000
+#EXTINF:0 tvg-name="СТС" group-title="Развлекательные" ,СТС
+http://192.168.1.220:8080/udp/233.99.61.12:5000
+#EXTINF:0 tvg-name="ТНТ" group-title="Развлекательные" ,ТНТ
+http://192.168.1.220:8080/udp/233.99.61.13:5000
+#EXTINF:0 tvg-name="Россия_2_(Спорт)" group-title="Спортивные" ,Россия 2
+http://192.168.1.220:8080/udp/233.99.61.14:5000
+#EXTINF:0 tvg-name="Пятый_Канал" group-title="Общественные" ,Пятый канал
+http://192.168.1.220:8080/udp/233.99.61.15:5000
+#EXTINF:0 tvg-name="7_ТВ" group-title="Общественные" ,7ТВ
+http://192.168.1.220:8080/udp/233.99.61.16:5000
+#EXTINF:0 tvg-name="Amazing_Life_(Удивительная_жизнь)" group-title="Развлекательные" ,Amazing Life
+http://192.168.1.220:8080/udp/233.99.61.17:5000
+#EXTINF:0 tvg-name="A-ONE" group-title="Музыкальные" ,A-ONE
+http://192.168.1.220:8080/udp/233.99.61.19:5000
+#EXTINF:0 tvg-name="France_24" group-title="Новостные" ,France 24
+http://192.168.1.220:8080/udp/233.99.61.20:5000
+#EXTINF:0 tvg-name="Bridge_TV" group-title="Музыкальные" ,Bridge TV
+http://192.168.1.220:8080/udp/233.99.61.21:5000
+#EXTINF:0 tvg-name="RU_TV" group-title="Музыкальные" ,RU TV
+http://192.168.1.220:8080/udp/233.99.61.36:5000
+#EXTINF:0 tvg-name="МИР" group-title="Новостные" ,Мир
+http://192.168.1.220:8080/udp/233.99.61.40:5000
+#EXTINF:0 tvg-name="Карусель" group-title="Детские" ,Карусель
+http://192.168.1.220:8080/udp/233.99.61.42:5000
+#EXTINF:0 tvg-name="Россия_24" group-title="Новостные" ,Россия 24
+http://192.168.1.220:8080/udp/233.99.61.45:5000
+#EXTINF:0 tvg-name="РБК" group-title="Новостные" ,РБК ТВ
+http://192.168.1.220:8080/udp/233.99.61.53:5000
+#EXTINF:0 tvg-name="Русский_Экстрим" group-title="Развлекательные" ,Русский Экстрим
+http://192.168.1.220:8080/udp/233.99.61.56:5000
+#EXTINF:0 tvg-name="Союз" group-title="Религиозные" ,Союз
+http://192.168.1.220:8080/udp/233.99.61.58:5000
+#EXTINF:0 tvg-name="TOP SHOP TV" group-title="Реклама" ,Top Shop
+http://192.168.1.220:8080/udp/233.99.61.65:5000
+#EXTINF:0 tvg-name="Индия" group-title="Фильмовые" ,Индия
+http://192.168.1.220:8080/udp/233.99.61.66:5000
+#EXTINF:0 tvg-name="Спорт_ПЛЮС" group-title="Спортивные" ,Спорт-Плюс
+http://192.168.1.220:8080/udp/233.99.61.68:5000
+#EXTINF:0 tvg-name="Зоо_ТВ" group-title="Развлекательные" ,Zoo TV
+http://192.168.1.220:8080/udp/233.99.61.72:5000
+#EXTINF:0 tvg-name="PRODеньги" group-title="Новостные" ,Про деньги
+http://192.168.1.220:8080/udp/233.99.61.73:5000
+#EXTINF:0 tvg-name="Юмор_ТВ" group-title="Развлекательные" ,Юмор ТВ
+http://192.168.1.220:8080/udp/233.99.61.76:5000
+#EXTINF:0 tvg-name="Совершенно_Секретно" group-title="Документальные" ,Совершенно секретно
+http://192.168.1.220:8080/udp/233.99.61.82:5000
+#EXTINF:0 tvg-name="Ночной_клуб" ,Ночной клуб
+http://192.168.1.220:8080/udp/233.99.61.87:5000
+#EXTINF:0 tvg-name="КХЛ-ТВ" group-title="Спортивные" ,КХЛ ТВ
+http://192.168.1.220:8080/udp/233.99.61.88:5000
+#EXTINF:0 tvg-name="Комедия_ТВ" group-title="Развлекательные" ,Комедия ТВ
+http://192.168.1.220:8080/udp/233.99.61.90:5000
+#EXTINF:0 tvg-name="Кинопоказ_HD-2" group-title="Развлекательные" ,Кинопоказ HD-2
+http://192.168.1.220:8080/udp/233.99.61.106:5000
