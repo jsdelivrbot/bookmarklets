@@ -1,0 +1,19 @@
+{
+    "name": "appasset/hqporn",
+    "type": "project",
+    "require": {
+        "composer/composer": "^1.7",
+        "guzzlehttp/guzzle": "^6.3",
+        "seld/jsonlint": "^1.7",
+        "bower-asset/bootstrap": "^3.3",
+        "bower-asset/bootstrap-table": "^1.12",
+        "bower-asset/json5": "^2.0",
+        "colinodell/json5": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Александр Трофимов",
+            "email": "trofimoff@live.ru"
+        }
+    ]
+}
