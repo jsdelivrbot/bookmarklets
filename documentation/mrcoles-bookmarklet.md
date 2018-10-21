@@ -4,6 +4,36 @@ Bookmarklet: sane development, familiar format
 
 ### [GitHub](https://github.com/mrcoles/bookmarklet)
 
+```javascript
+javascript: (function() { function callback() { (
+  function($) {
+      var jQuery = $;
+      /**
+       * Boomarklet Code
+       */
+      $('video').each(function() {
+          var $video = $(this),
+              src = $video.find('source').first().prop('src');
+              
+          if (!src) src = $video.prop('src');
+          
+          window.open(src, '_blank');
+      });
+      // Bookmarklet Code END
+      
+      })(jQuery.noConflict(true));
+  }
+  
+  var s = document.createElement("script");
+  
+  s.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js";
+  
+  if (s.addEventListener),s.addEventListener("load", callback, false); else if (s.readyState) s.onreadystatechange = callback;
+  
+  document.body.appendChild(s);
+})()
+```
+
 * * *
 
 [![Build Status](https://travis-ci.org/mrcoles/bookmarklet.svg?branch=master)](https://travis-ci.org/mrcoles/bookmarklet)
