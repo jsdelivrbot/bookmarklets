@@ -6,24 +6,11 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css" rel="stylesheet" type="text/css"/>
-  <!-- <link href="./main.css" rel="stylesheet" type="text/css"/> -->
+  <link href="./xhtml-jquery.css" rel="stylesheet" type="text/css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" language="javascript" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js" language="javascript" type="text/javascript"></script>
-  <script language="javascript" type="text/javascript">
-  jQuery(document).ready(function($){
-  
-      var content   = $('.content'),
-          page      = content.find('.page').first(),
-          pageTitle = $('<h1/>');
-      
-      $('<div/>').addClass('title-wrap').append(pageTitle).prependTo(content);
-      
-      pageTitle.text('xHTML 4.01 Transitional with jQuery');
-      window.document.title = pageTitle.text();
- 
-  });
-  </script>
+  <script src="./xhtml-jquery.js" language="javascript" type="text/javascript"></script>
 </head>
 <body>
   <div class="content">
