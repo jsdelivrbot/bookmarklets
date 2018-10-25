@@ -1,0 +1,5 @@
+#!/bin/bash
+_SOURCE="$1"
+_SOURCE="http://vk.com/video_hls.php?dirs%5B480%5D=https%3A%2F%2Fcs640703.vkuservideo.net%2F12%2Fu445287525%2Fvideos%2F&dirs%5B240%5D=https%3A%2F%2Fcs513131.vkuservideo.net%2F3%2Fu445287525%2Fvideos%2F&dirs%5B360%5D=https%3A%2F%2Fcs513131.vkuservideo.net%2F3%2Fu445287525%2Fvideos%2F&dirs%5B720%5D=https%3A%2F%2Fcs611802.vkuservideo.net%2F17%2Fu445287525%2Fvideos%2F&dirs%5B1080%5D=https%3A%2F%2Fcs516531.vkuservideo.net%2F16%2Fu445287525%2Fvideos%2F&path=16%2Fu445287525%2Fvideos%2F&extra=Arn6JOkZAtNVmWkBnhd1o5iMVF7KuuTM_uYIrcUxeF6wnJxKUOPYLIxZBKPQnMcDnDO1j4ILi1bdx4MFOexTwkVrmeec8ghI0KNX6RJXab4R3QtOI4oQuaGO2elleUSB55mOup47vZC0QFkrzloVS8Pb&c_extra=81-bg4Ml50bOKMkLkKKbslojmtNGO1xPX4505GoNVLxBUiGs81ndKplGsnoXdCnrmdMjN8fRJ9HIC1_2r1UZbn3xCRcp3ZI7WL0ddKOOOrGcX70y9uBgKi3ikout5WISjELbNNPG5dV-41f-baioCd4h&video=-96141600_456240801&tag=75d0fbb140&c_tag=4091057560c1&hash=2a89f9f2b250b068c8&lang_id=0"
+echo -e "#EXTM3U\n\n"
+curl -k -s "$_SOURCE" | tr \\n ' ' | tr '#EXT' \\n\#EXT | grep -P '(720|1080)\s' | tr ' ' \\n

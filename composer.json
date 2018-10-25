@@ -3,17 +3,24 @@
     "type": "project",
     "require": {
         "composer/composer": "^1.7",
+        "php-http/httplug": "^1.1",
+        "rmccue/requests": "^1.7",
+        "kriswallsmith/buzz": "^0.17.2",
         "guzzlehttp/guzzle": "^6.3",
-        "seld/jsonlint": "^1.7",
+        "php-curl-class/php-curl-class": "^8.3",
+        "nategood/httpful": "^0.2.20",
+        "composer/semver": "^1.4",
         "bower-asset/bootstrap": "^3.3",
         "bower-asset/bootstrap-table": "^1.12",
-        "bower-asset/json5": "^2.0",
-        "colinodell/json5": "^2.0"
-    },
-    "authors": [
-        {
-            "name": "Александр Трофимов",
-            "email": "trofimoff@live.ru"
-        }
-    ]
+        "twbs/bootstrap": "^3.3",
+        "wenzhixin/bootstrap-table": "^1.12",
+        "pleio/pinboard": "@dev",
+"colinodell/json5": "*",
+        "kijin/pinboard-api": "^0.3.2",
+        "redcatphp/json5": "^1.0",
+        "seld/jsonlint": "^1.7",
+        "zircote/swagger-php": "^3.0",
+        "bower-asset/video.js": "^7.2",
+        "fxp/composer-asset-plugin": "^1.4"
+    }
 }
