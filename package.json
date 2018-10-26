@@ -1,11 +1,22 @@
 {
-  "name": "bookmarklets",
+  "name": "hq",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://moalex@bitbucket.org/appasset/hq.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/appasset/hq#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-table": "^1.12.1",
+    "jquery": "^3.3.1",
+    "video.js": "^7.2.3"
+  }
 }
