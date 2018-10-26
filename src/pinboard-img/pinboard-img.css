@@ -1,0 +1,21 @@
+/**
+ * @link https://cdn.rawgit.com/appasset/bookmarklets/43958ee1/src/pinboard-img-bookmarklet.css
+ */
+.star,
+.user_navbar {
+  display: none !important;
+}
+
+.poster-wrapper,
+.poster-wrapper img {
+  display:   block;
+  position:  relative;
+}
+
+.poster-wrapper {
+  width: 100%;
+}
+
+.poster-wrapper img {
+  max-width: 100%;
+}
