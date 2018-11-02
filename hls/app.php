@@ -1,17 +1,4 @@
-<?php
-header("Content-Type:text/html; Charset=UTF-8");
-
-$prop = (object) [
-  "app"  => "bookmarklets",
-  "request" => null,
-  "manifest" => "../../composer.json",
-  "vendor" => null,
-  "base" => null,
-  "on" => [ "init" =>  [
-                         "modules", "../../bookmarklets/vendor/autoload.php" ],
-                         "main"
-		       ] ]; $p = &$prop;
-?><html>
+<?php header("Content-Type:text/html; Charset=UTF-8"); ?><html>
 <head>
   <?php require_once "app-class.php"; ?>
   <style type="text/css">
