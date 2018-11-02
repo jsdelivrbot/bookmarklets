@@ -4,8 +4,6 @@ require_once "../../bookmarklets/vendor/autoload.php";
 
 use GuzzleHttp\Client;
 
-$p->request = (array) $_GET;
-
 foreach($p->request as $key => &$val)
    $val = urldecode((string) $val);
    

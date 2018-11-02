@@ -12,14 +12,11 @@
         "composer/semver": "^1.4",
         "bower-asset/bootstrap": "^3.3",
         "bower-asset/bootstrap-table": "^1.12",
-        "twbs/bootstrap": "^3.3",
-        "wenzhixin/bootstrap-table": "^1.12",
         "pleio/pinboard": "@dev",
 "colinodell/json5": "*",
         "kijin/pinboard-api": "^0.3.2",
         "redcatphp/json5": "^1.0",
         "seld/jsonlint": "^1.7",
-        "zircote/swagger-php": "^3.0",
         "bower-asset/video.js": "^7.2",
         "fxp/composer-asset-plugin": "^1.4"
     }
