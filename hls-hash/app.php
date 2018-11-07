@@ -1,5 +1,4 @@
-<head>
-  <?php
+<head><?php
   // $p->request = (array) $_GET;
   require_once "app-class.php"; ?>
   <style type="text/css">
@@ -11,7 +10,7 @@
       color: #FFF;
     }
     .input-source {
-      display: block;
+      display: none;
     }
     .play-action{
       position: relative;
@@ -36,7 +35,7 @@
 </head>
 <body>
 <div style="margin: auto 50px;">
-  <div class="input-source"><pre><code><?= _command_curl(rawurldecode($_GET['source'])) ?></code></pre>
+  <div class="input-source"><pre><code><?= _command_curl(rawurldecode($_GET['source'])) ?></code></pre></div>
   <a class="play-action" href="nplayer-"><img width="160" height="160" src="/resources/nplayer-dark.gif"/></a>
 </div>
 </body>
