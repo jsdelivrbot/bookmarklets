@@ -1,5 +1,9 @@
+/node_modules
 /assets
+/bower-asset
 /hls
 /resources
 /pinboard
 /vendor
+/backend
+/hls-hash
