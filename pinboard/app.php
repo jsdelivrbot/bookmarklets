@@ -5,5 +5,3 @@ $result = require('pinboard.php');
 
 print $result;
 ?>
-
-

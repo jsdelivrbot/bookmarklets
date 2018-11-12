@@ -8,9 +8,11 @@ $version = (string) phpversion();
 function app($input){
   global $client,
          $version;
+
   //$input = explode(":", $input, 2);
   $action = $_GET['action'];
   $input  = $input;
+
   switch($action) {
     case 'add':
       parse_str($input, $i);
@@ -35,4 +37,5 @@ function app($input){
 };
 return app($_REQUEST);
 ?>
+
 
