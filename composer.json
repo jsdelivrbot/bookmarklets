@@ -10,7 +10,6 @@
         "php-curl-class/php-curl-class": "^8.3",
         "nategood/httpful": "^0.2.20",
         "composer/semver": "^1.4",
-        "bower-asset/bootstrap": "^3.3",
         "bower-asset/bootstrap-table": "@dev",
         "pleio/pinboard": "@dev",
 "colinodell/json5": "*",
@@ -19,7 +18,7 @@
         "seld/jsonlint": "^1.7",
         "bower-asset/video.js": "^7.2",
         "fxp/composer-asset-plugin": "^1.4",
-        "twbs/bootstrap": "^3.3",
-        "bower-asset/firebug-lite": "^1.5"
+        "bower-asset/firebug-lite": "^1.5",
+        "twbs/bootstrap": "^3.3"
     }
 }
