@@ -8,7 +8,7 @@
 // @include       *://192.168.150.70/redmine/*
 // @include       *://ps70/redmine/*
 // @run-at        document-idle
-// @connect       gist.githubusercontent.com
+// @connect       b.appasset.ru
 // @connect       cdnjs.cloudflare.com
 // @require       https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @connect       rawgit.com
@@ -27,7 +27,7 @@
 
 jQuery(document).ready(function($){
   GM_xmlhttpRequest({
-    url:    'https://gist.githubusercontent.com/moalex/107cfdb75dc50628712c56df6236dd4f/raw/2ed42f15423e51906354ecd6b30a99bdc2ccdedc/redmine-basecamp.user.css',
+    url:    'http://b.appasset.ru/redmine/src/black-redmine.user.css',
     method: 'GET',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     onload: function(response){
