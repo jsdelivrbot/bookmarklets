@@ -1,8 +1,13 @@
 <?php
+/** 
+ * @link http://j.mp/2zf1jnb
+ */
 use \Composer\Semver\Comparator;
-
+use \GuzzleHttp\Client;
+?>
+<?php
 header('Content-Type:text/plain');
-$client  = new \GuzzleHttp\Client();
+$client  = new Client();
 $version = (string) phpversion();
 
 function app($input){
@@ -10,9 +15,14 @@ function app($input){
          $version;
 
   //$input = explode(":", $input, 2);
-  $action = $_GET['action'];
-  $input  = $input;
+  
+  $action = 'add';
+  
+  if (isset($input['action']))
+    $action = $input['action'];
+  unset($input['action']);
 
+  var_dump($input); die();
   switch($action) {
     case 'add':
       parse_str($input, $i);
@@ -21,8 +31,12 @@ function app($input){
         $prop = trim(urldecode($prop));
         $val  = trim(urldecode($val));
         $input[$prop] = $val;
-      } unset($i);
+      }
+      unset($i);
+      
       $input = (object) $input;
+      
+      var_dump($input); exit();
       break;
       
     case 'list':
@@ -37,5 +51,3 @@ function app($input){
 };
 return app($_REQUEST);
 ?>
-
-

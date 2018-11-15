@@ -1,0 +1,19 @@
+html, body {
+  position: relative;
+}
+body {
+  background: #000103;
+  color: #FFF;
+}
+.input-source {
+  display: none;
+}
+.play-action{
+  position: relative;
+  width:  160px;
+  height: 160px;
+  color: #fff;
+  display: block;
+  margin: 100px auto;
+  text-decoration: underline;
+}
